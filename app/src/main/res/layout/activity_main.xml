@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout style="@style/parent_linear_layout">
+
+        <ImageView
+            android:id="@+id/image1"
+            style="@style/top_image"
+            android:src="@drawable/virtua_talking" />
+
+        <View style="@style/horizontal_black_line">
+
+        </View>
+
+        <View style="@style/horizontal_gray_line">
+
+        </View>
+
+        <TextView
+            style="@style/business_name_textView"
+            android:text="@string/business_name" />
+
+        <TextView
+            style="@style/moto"
+            android:text="@string/moto" />
+
+        <LinearLayout style="@style/business_details_layout">
+
+            <ImageView
+                style="@style/scan_image"
+                android:src="@drawable/scan" />
+
+            <View style="@style/vertical_layout_line">
+
+            </View>
+
+            <TextView
+                style="@style/business_details_textView"
+                android:text="@string/business_details" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/phone_layout">
+
+            <ImageView
+                style="@style/phone_icon"
+                android:src="@drawable/phone_icon" />
+
+            <TextView
+                style="@style/phone_textView"
+                android:text="@string/business_phone_number1" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/address_layout">
+
+            <ImageView
+                style="@style/adress_icon"
+                android:src="@drawable/address_icon" />
+
+            <TextView
+                style="@style/adress_textView"
+                android:text="@string/business_address" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/webpage_layout">
+
+            <ImageView
+                style="@style/webpage_icon"
+                android:src="@drawable/webpage_icon" />
+
+            <TextView
+                style="@style/webpage_textView"
+                android:text="@string/business_webpage" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
