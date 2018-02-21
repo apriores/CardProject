@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CardProject</string>
     <string name="business_name">Virtua Talking</string>
-    <string name="moto">Keep you close!</string>
+    <string name="moto">Keeps you close!</string>
     <string name="business_details">Keep in touch with your family, your beloved or your friends as if they are one feet away from you, in a 3D space.</string>
     <string name="business_address">1234 Virtual Town; St, Day Dream; View, CA 98765</string>
     <string name="business_webpage">www.virtuatalking.com</string>

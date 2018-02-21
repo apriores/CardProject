@@ -8,14 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="top_image">
+    <style name="image_header">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">200dp</item>
         <item name="android:adjustViewBounds">true</item>
         <item name="android:scaleType">centerCrop</item>
     </style>
 
-    <style name="business_name_textView">
+    <style name="text_business_name">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">16dp</item>
@@ -27,7 +27,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="moto">
+    <style name="text_moto">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">8dp</item>
@@ -39,7 +39,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="scan_image">
+    <style name="image_scan">
         <item name="android:layout_width">100dp</item>
         <item name="android:layout_height">100dp</item>
         <item name="android:layout_marginLeft">8dp</item>
@@ -49,25 +49,25 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
-    <style name="horizontal_black_line">
+    <style name="view_horizontal_black_line">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
         <item name="android:background">@android:color/black</item>
     </style>
 
-    <style name="horizontal_gray_line">
+    <style name="view_horizontal_gray_line">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
         <item name="android:background">@android:color/darker_gray</item>
     </style>
 
-    <style name="vertical_layout_line">
+    <style name="view_vertical_layout_line">
         <item name="android:layout_width">2dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">@color/colorBackground</item>
     </style>
 
-    <style name="business_details_textView">
+    <style name="text_business_details">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">8dp</item>
@@ -78,7 +78,7 @@
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="business_details_layout">
+    <style name="layout_business_details">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">24dp</item>
@@ -90,7 +90,7 @@
         <item name="android:paddingBottom">16dp</item>
     </style>
 
-    <style name="phone_layout">
+    <style name="layout_phone">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:layout_marginLeft">56dp</item>
@@ -98,14 +98,14 @@
         <item name="android:orientation">horizontal</item>
     </style>
 
-    <style name="phone_icon">
+    <style name="image_phone_icon">
         <item name="android:layout_width">40dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:adjustViewBounds">true</item>
         <item name="android:scaleType">fitCenter</item>
     </style>
 
-    <style name="phone_textView">
+    <style name="text_phone_number">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginLeft">8dp</item>
@@ -113,21 +113,21 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
-    <style name="address_layout">
+    <style name="layout_address">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">56dp</item>
         <item name="android:layout_marginLeft">56dp</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
-    <style name="adress_icon">
+    <style name="image_adress_icon">
         <item name="android:layout_width">40dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:adjustViewBounds">true</item>
         <item name="android:scaleType">fitCenter</item>
     </style>
 
-    <style name="adress_textView">
+    <style name="text_adress">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginLeft">8dp</item>
@@ -136,7 +136,7 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
-    <style name="webpage_layout">
+    <style name="layout_webpage">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:layout_marginLeft">56dp</item>
@@ -144,14 +144,14 @@
         <item name="android:orientation">horizontal</item>
     </style>
 
-    <style name="webpage_icon">
+    <style name="image_webpage_icon">
         <item name="android:layout_width">40dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:adjustViewBounds">true</item>
         <item name="android:scaleType">fitCenter</item>
     </style>
 
-    <style name="webpage_textView">
+    <style name="text_webpage">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_marginLeft">8dp</item>

@@ -1,79 +1,79 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/colorBackground">
 
     <LinearLayout style="@style/parent_linear_layout">
 
         <ImageView
             android:id="@+id/image1"
-            style="@style/top_image"
+            style="@style/image_header"
             android:src="@drawable/virtua_talking" />
 
-        <View style="@style/horizontal_black_line">
+        <View style="@style/view_horizontal_black_line">
 
         </View>
 
-        <View style="@style/horizontal_gray_line">
+        <View style="@style/view_horizontal_gray_line">
 
         </View>
 
         <TextView
-            style="@style/business_name_textView"
+            style="@style/text_business_name"
             android:text="@string/business_name" />
 
         <TextView
-            style="@style/moto"
+            style="@style/text_moto"
             android:text="@string/moto" />
 
-        <LinearLayout style="@style/business_details_layout">
+        <LinearLayout style="@style/layout_business_details">
 
             <ImageView
-                style="@style/scan_image"
+                style="@style/image_scan"
                 android:src="@drawable/scan" />
 
-            <View style="@style/vertical_layout_line">
+            <View style="@style/view_vertical_layout_line">
 
             </View>
 
             <TextView
-                style="@style/business_details_textView"
+                style="@style/text_business_details"
                 android:text="@string/business_details" />
 
         </LinearLayout>
 
-        <LinearLayout style="@style/phone_layout">
+        <LinearLayout style="@style/layout_phone">
 
             <ImageView
-                style="@style/phone_icon"
+                style="@style/image_phone_icon"
                 android:src="@drawable/phone_icon" />
 
             <TextView
-                style="@style/phone_textView"
+                style="@style/text_phone_number"
                 android:text="@string/business_phone_number1" />
 
         </LinearLayout>
 
-        <LinearLayout style="@style/address_layout">
+        <LinearLayout style="@style/layout_address">
 
             <ImageView
-                style="@style/adress_icon"
+                style="@style/image_adress_icon"
                 android:src="@drawable/address_icon" />
 
             <TextView
-                style="@style/adress_textView"
+                style="@style/text_adress"
                 android:text="@string/business_address" />
 
         </LinearLayout>
 
-        <LinearLayout style="@style/webpage_layout">
+        <LinearLayout style="@style/layout_webpage">
 
             <ImageView
-                style="@style/webpage_icon"
+                style="@style/image_webpage_icon"
                 android:src="@drawable/webpage_icon" />
 
             <TextView
-                style="@style/webpage_textView"
+                style="@style/text_webpage"
                 android:text="@string/business_webpage" />
 
         </LinearLayout>
